@@ -141,6 +141,8 @@ footer {
 
 
 /*                                     [ TEXTOS ]                                                     */
+
+
 ul {
     font-size: 2rem;
 }
@@ -153,13 +155,14 @@ li {
 
 
 p {
+    font-size: 25px;
     margin: 1;
     border-radius: 0.5rem;
 }
 
 @media (max-width: 767px) {
     p {
-        width: 60%;
+        font-size: 20px;
 
         display: flex;
         justify-content: center;
@@ -171,18 +174,22 @@ p {
 
 
 a {
-    font-size: 2rem;
+    font-size: 30px;
     text-decoration: black;
-    color: white;
+    color: rgb(253, 255, 135);
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
 }
 
 @media (max-width: 767px) {
     a {
         /**flex-direction: column;**/
-        width: 99%;
-        font-size: 150%;
+        width: 100%;
+        font-size: 20px;
         text-decoration: black;
-
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -191,97 +198,102 @@ a {
 }
 
 
-
-
 /*                                    [ SUBTITULOS ]                                                   */
 h1 {
-    font-size: 5rem;
-    color: whitesmoke;
-    justify-content: center;
-
+    text-align: left;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 @media (max-width: 767px) {
     h1 {
-        width: 50%;
 
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-
+        text-align: left;
+        font-family: Arial Black;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     }
 }
 
 
 h2 {
-    color: black;
+    /*color: black;
     font-family: arial, helvetica, "sans serif";
-    font-size: 150%;
+    font-size: 150%;*/
+
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+
 }
 
 @media (max-width: 767px) {
     h2 {
-        width: 50%;
-        margin-top: 1px;
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
+        font-family: Arial Black;
+        font-weight: bold;
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 
     }
 }
 
 
 h3 {
-    font-size: 3rem;
-    color: whitesmoke;
+    /*font-size: 3rem;
+    color: whitesmoke;*/
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Black;
+    font-size: 50px;
+    color: #e2e1e1;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 @media (max-width: 767px) {
     h3 {
-        width: 50%;
-
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Black;
+        font-size: 30px;
+        color: #e2e1e1;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 
     }
 }
 
-
 /**Titulos de inicio de  TODAS LAS paginas**/
 h4 {
-    font-size: 8rem;
+    font-size: 50px;
     color: black;
 }
 
 @media (max-width: 767px) {
     h4 {
-
-        font-size: 3rem;
-
+        font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 }
 
 
 h5 {
-    font-size: 2rem;
+    font-size: 25px;
     color: orange;
 }
 
 @media (max-width: 767px) {
     h5 {
 
-        font-size: 2rem;
+        font-size: 20px;
         color: orange;
 
     }
@@ -296,17 +308,18 @@ h6 {
 @media (max-width: 767px) {
     h6 {
 
-        font-size: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif, white;
         color: black;
-        width: 150px;
+        width: 180px;
         padding: 20px;
 
 
-        border: 5px solid green;
-        background-color: green;
+        border: 5px solid rgb(0, 0, 0);
+        background-color: rgb(255, 102, 31);
         border-radius: 15px;
 
-        margin-top: 1px;
+        margin-top: 0.5px;
         margin-bottom: 1px;
 
         display: flex;
@@ -369,16 +382,18 @@ object {
 
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: 1000px;
+
 }
 
 @media (max-width: 767px) {
     object {
-        width: 21rem;
-        height: 30rem;
+        width: 300px;
+        height: 200px;
 
         padding: 1px;
         border: 1px solid rgb(12, 10, 5);
-        border-radius: 20px;
+        border-radius: 10px;
 
         margin-top: 5rem;
         margin-bottom: 5rem;
