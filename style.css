@@ -153,14 +153,21 @@ footer {
 }
 
 
-
-
 /*                                     [ TEXTOS ]                                                     */
 
 
 ul {
     font-size: 2rem;
     margin-top: -100px;
+    margin-left: -80px;
+}
+
+@media (max-width: 767px) {
+    ul {
+        font-size: 2rem;
+        margin-top: -100px;
+        margin-left: -10px;
+    }
 }
 
 
@@ -185,7 +192,7 @@ p {
     font-size: 30px;
     margin: 15px;
 
-
+    margin-left: 20px;
     border-radius: 0.5rem;
     align-content: normal;
 }
@@ -416,7 +423,7 @@ frame {
 
 iframe {
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 20px;
 
     margin-top: -100px;
     margin-bottom: 150px;
@@ -424,15 +431,17 @@ iframe {
 
 @media (max-width: 767px) {
     iframe {
-        justify-content: center;
-        width: 21rem;
-        height: 30rem;
-
         padding: 1px;
         border: 1px solid rgb(12, 10, 5);
         border-radius: 20px;
 
+        justify-content: center;
+        width: 400px;
+        height: 30rem;
+
+
         margin-top: -100px;
+        margin-left: 20px;
         margin-bottom: 150px;
     }
 }
@@ -505,14 +514,24 @@ input {
 }
 
 .bigger {
-    width: 500px;
+    width: 900px;
     height: 900px;
     margin: 0 10px;
 
+    margin-bottom: 50px;
+
 }
 
-.textaling {
-    margin-left: 80px;
+.tex {
+    margin-left: 50px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.ptext {
+    margin-left: 50px;
 }
 
 @media(max-width:767px) {
@@ -537,12 +556,25 @@ input {
 
         width: 300px;
         height: 200px;
-        margin-left: 80px;
+        margin-top: -50px;
+        margin-left: 30px;
 
     }
 
-    .textaling {
-        margin-left: 80px;
+    .tex {
+        margin-left: 30px;
+        margin-bottom: -50px;
+    }
+
+    .justificado {
+        font-size: 15px;
+
+        padding: 1rem;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        width: 400px;
+        height: 150px;
+        margin-top: auto;
     }
 
 
