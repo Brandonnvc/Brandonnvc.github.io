@@ -219,6 +219,7 @@ a {
     font-weight: bold;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 
+
 }
 
 @media (max-width: 767px) {
@@ -441,7 +442,7 @@ iframe {
 
 
         margin-top: -100px;
-        margin-left: 20px;
+        margin-left: 5px;
         margin-bottom: 150px;
     }
 }
@@ -496,7 +497,6 @@ input {
     max-width: 500px;
 }
 
-
 /*                                    [ CLASES ]                                                   */
 
 .alinear {
@@ -534,6 +534,43 @@ input {
     margin-left: 50px;
 }
 
+.caja {
+    border: 1px solid rgb(253, 255, 135);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}
+
+.cabezal1 {
+    background-color: rgb(197, 197, 181);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.cabezal2 {
+    background-color: rgba(51, 148, 228, 0.205);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.cabezal3 {
+    background-color: rgba(211, 223, 53, 0.788);
+    padding: 0rem;
+    text-align: center;
+    color: white;
+}
+
+.cabezal4 {
+    background-color: rgba(218, 55, 55, 0.87);
+    padding: 0rem;
+    text-align: center;
+    color: white;
+}
+
+
 @media(max-width:767px) {
 
     .alinear {
@@ -542,7 +579,7 @@ input {
         height: 200px;
 
         margin-bottom: 20px;
-        margin-left: 80px;
+        margin-left: 10px;
     }
 
     .contener {
@@ -557,12 +594,12 @@ input {
         width: 300px;
         height: 200px;
         margin-top: -50px;
-        margin-left: 30px;
+        margin-left: 10px;
 
     }
 
     .tex {
-        margin-left: 30px;
+        margin-left: 10px;
         margin-bottom: -50px;
     }
 
@@ -573,11 +610,46 @@ input {
         box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
         border-radius: 10px;
         width: 400px;
-        height: 150px;
-        margin-top: auto;
+        height: 100px;
+        margin: 1px;
     }
 
+    .caja {
+        border: 1px solid rgb(253, 255, 135);
+        padding: 10px;
+        border-radius: 15px;
+        margin-top: 0.5px;
+        margin-bottom: 1px;
 
+    }
+
+    .cabezal1 {
+        background-color: rgb(197, 197, 181);
+        padding: 2rem;
+        text-align: center;
+        color: white;
+    }
+
+    .cabezal2 {
+        background-color: rgba(51, 148, 228, 0.205);
+        padding: 1rem;
+        text-align: center;
+        color: white;
+    }
+
+    .cabezal3 {
+        background-color: rgba(211, 223, 53, 0.788);
+        padding: 0rem;
+        text-align: center;
+        color: white;
+    }
+
+    .cabezal4 {
+        background-color: rgba(218, 55, 55, 0.87);
+        padding: 0rem;
+        text-align: center;
+        color: white;
+    }
 }
 
 
