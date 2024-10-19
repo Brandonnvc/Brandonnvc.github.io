@@ -21,7 +21,7 @@ header {
     flex-direction: column;
     align-items: center;
     /*background-color: rgb(72, 201, 176);*/
-    background-image: url("IMG4.jpg");
+    background-image: url("img_4.jpg");
     background-size: cover;
 
 }
@@ -469,7 +469,7 @@ object {
         border-radius: 10px;
 
         margin-left: 130px;
-        background-image: url("IMG_DOC.png");
+        background-image: url("img_doc.png");
         background-size: cover;
 
     }
@@ -570,6 +570,22 @@ input {
     color: white;
 }
 
+.cabezal5 {
+    background-color: rgb(197, 197, 181);
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+
+
+.video {
+
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+
+}
+
 
 @media(max-width:767px) {
 
@@ -649,6 +665,22 @@ input {
         padding: 0rem;
         text-align: center;
         color: white;
+    }
+
+    .cabezal5 {
+        background-color: rgb(197, 197, 181);
+        padding: 2rem;
+        text-align: center;
+        color: black;
+    }
+
+    .video {
+
+        margin-left: 10px;
+        width: 300px;
+        height: 200px;
+        margin: 50px;
+
     }
 }
 
