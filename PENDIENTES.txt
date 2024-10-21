@@ -1,0 +1,4 @@
+- Mejorar secciones de inicio y las animas las imágenes no están bien centradas
+
+
+-mejorar el footer de la pagina de Inicio para la vista en celular
