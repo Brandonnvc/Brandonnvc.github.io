@@ -2,3 +2,30 @@
 
 
 -mejorar el footer de la pagina de Inicio para la vista en celular
+
+
+
+
+ESTRUCTURA DEL FOOTER QUE TIENE PROBLEMAS:
+
+
+        <div class="container_footer">
+            <div class="desplegado">
+
+                <div class="columna columna-50">
+                    <h6 class="part_subtitle">
+                        UBICACIÓN
+                    </h6>
+                    <li class="li_footer">Av. Las Animas No.8 <br> Hacienda Las Animas.<br> Irapuato, Gto.</li>
+
+                </div>
+                <div class="columna columna-50">
+                    <h6 class="part_subtitle">
+                        CONTACTO
+                    </h6>
+                    <li class="li_footer">animas@gmail.com</li>
+                    <li class="li_footer">462-816-9284</li>
+                </div>
+
+            </div>
+        </div>
